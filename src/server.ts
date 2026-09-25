@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3000;
 app.use('/', healthRouter);
 
 app.get('/', (req, res) => {
-  res.send('Hello from dummy app running in Docker!');
+  res.send('Hello your nodeJS is running in Docker!');
 });
 
 app.listen(PORT, () => {
